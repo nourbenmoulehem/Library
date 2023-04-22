@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New book</title>
+  <script type="module" src="app.js" defer></script>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="newBook.css">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+</head>
+
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="logo">
+        AlphaBell 📖
+      </div>
+      <div class="wrapper">
+        <ul>
+          <li><a href="index.html"><i class="fa-solid fa-books"></i> My Library</a></li>
+          <li><a href="#"><i class="fas fa-user"></i> Add A Book</a></li>
+          <li><a href="#"><i class="fas fa-address-card"></i> Dashboard</a></li>
+          <li><a href="#"><i class="fas fa-project-diagram"></i> Settings</a></li>
+        </ul>
+  
+        <div class="github">
+          <i class="fa-brands fa-github gitIcon"></i>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="main-content">
+
+      <form action="">
+        <div class="input-user">
+
+          <div class="input">
+            <label for="title">Title</label>
+            <input type="text" id="title">
+          </div>
+
+          <div class="input">
+            <label for="author">Author</label>
+            <input type="text" id="author">
+          </div>
+
+          <div class="input">
+            <label class="form-label" for="description">Description</label>
+            <textarea id="description" rows="3"></textarea>
+          </div>
+
+          <div class="input">
+            <label for="pages">Pages</label>
+            <input type="number" id="pages">
+          </div>
+
+          <div class="input">
+            <label for="price">Price</label>
+            <input type="number" id="price">
+          </div>
+
+          <div class="inputImage">
+
+            <input type="file" id="upload-button" accept="image/*">
+            
+            <label for="upload-button">
+              <i class="fas fa-upload"></i> &nbsp; Choose A Photo
+            </label>
+  
+            <figure class="image-container">
+              <img id="chosen-image">
+              <figcaption id="file-name"></figcaption>
+            </figure>
+  
+            
+          </div>
+          
+        </div>
+        
+        <div class="footer">
+          <button type="submit" class="submit">Submit</button>
+        </div>
+      </form>
+
+      
+      
+
+    </div>
+
+    
+
+  </div>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
